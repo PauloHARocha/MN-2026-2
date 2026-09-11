@@ -83,7 +83,7 @@ e) $3x-\cos(x)+1=0$
 f) $\ln(x)-\sin(x)=0$
 
 
-**2.** Localize um intervalo que contenha uma raiz e determine uma aproximação para a solução utilizando o Método da Bisseção com precisão $\varepsilon=10^{-3}$.
+**2.** Localize graficamente um intervalo que contenha uma raiz e determine uma aproximação para a solução utilizando o Método da Bisseção com precisão $\varepsilon=10^{-3}$.
 
 a) $x^2-2=0$
 
@@ -96,10 +96,51 @@ d) $3x-\cos(x)+1=0$
 e) $\ln(x)-\sin(x)=0$
 
 
-**3.** A água está escoando em um canal trapezoidal com vazão $Q=20\ \text{m}^3/\text{s}$. A profundidade crítica $y$ satisfaz a equação
+**3.** A água está escoando em um canal trapezoidal com vazão $Q=20\ \text{m}^3/\text{s}$.
+
+A profundidade crítica $y$ satisfaz a equação
 
 $$
 1-\frac{Q^2}{gA_c^3}B=0,
 $$
 
-em que $B=3+y$ e $A_c=3y+\frac{y^2}{2}$, sendo $g=9,81\ \text{m/s}^2$. Determine a profundidade crítica $y$ utilizando o Método da Bisseção com precisão $\varepsilon=10^{-3}$.
+em que $B=3+y$ e $A_c=3y+\frac{y^2}{2}$, sendo $g=9,81\ \text{m/s}^2$.
+
+Determine a profundidade crítica $y$ utilizando o Método da Bisseção com precisão $\varepsilon=10^{-3}$.
+
+**4.** Encontre uma aproximação inicial e utilize o Método do Ponto Fixo para as raízes das equações a seguir, se possível, com precisão de $\varepsilon=10^{-5}$.
+
+a) $3x-e^x=0$
+
+b) $2x-\tan(x)=0$
+
+c) $e^x-3x^2=0$
+
+d) $x^3+3x^2-1=0$
+
+e) $x-0,8-0,2\sin(x)=0$
+
+**5.** Utilize o Método de Newton-Raphson para encontrar soluções com precisão de $\varepsilon=10^{-5}$ para as equações a seguir.
+
+a) $e^x+2^{-x}+2\cos(x)-6=0$
+
+b) $(x-2)^2-\ln(x)=0$
+
+c) $e^x-3x^2=0$
+
+d) $\sin(x)-e^{-x}=0$
+
+e) $x-0,8-0,2\sin(x)=0$
+
+
+**6.** Use o Método de Newton-Raphson para determinar uma raiz real de $f(x)=-1+5,5x-4x^2+0,5x^3$ utilizando as aproximações iniciais:
+
+a) $x_0=4,52$
+
+b) $x_0=4,54$
+
+Discuta e use métodos gráficos e analíticos para explicar quaisquer peculiaridades nos seus resultados.
+
+**7.** Seja $f(x)=-x^3-\cos(x)$, com $x_0=-1$ e $x_1=0$, obtenha uma solução com precisão de 5 casas decimais utilizando o Método da Secante.
+
+**8.** Obtenha uma solução para a equação $e^x+2^{-x}+2\cos(x)-6=0$ utilizando o Método da Secante com precisão $\varepsilon=10^{-5}$ e faça um gráfico do erro relativo em função do número de iterações.
